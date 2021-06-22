@@ -1,0 +1,223 @@
+html {
+  /*position: relative;*/
+  height: 100%;
+}
+body {
+  padding-top: 85px;
+  padding-bottom: 90px;
+  /*new*/
+  position: relative;
+  min-height: 100%;
+
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color:black;
+  padding-top: 20px;
+  background: #080808;
+  /*opacity: 0.5;*/
+}
+footer p {
+  color: #bbb;
+  /*color: #fff;*/
+  font-size: 0.9em;
+}
+img.mynavimg {
+  width: 480px;
+}
+img.mynavimg2 {
+  width: 265px;
+  display: none;
+}
+@media screen and (max-width: 980px) {
+    img.mynavimg {
+      display: none;
+    }
+    img.mynavimg2 {
+      display: block;
+    }
+}
+@media screen and (max-width: 767px) {
+  img.mynavimg2 {
+    width: 220px;
+  }
+  body {
+    padding-top: 70px;
+  }
+
+}
+
+.myform-group {
+  line-height: 3.429;
+}
+
+.mynavbar-nav > li > a {
+  line-height: 35px;
+}
+
+.mynavbar-brand {
+  padding: 0 15px;
+}
+
+.mytext {
+  position: relative;
+}
+.mytext span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: absolute;
+  /*left: 0;*/
+  right: 0;
+  left: 10px;
+}
+.mytext:before {
+  content: '';
+  display: inline-block;
+}
+.table .myth {
+  /*padding: 10px 15px;*/
+  line-height: 2;
+  border-top: none;
+}
+
+img.mybg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /*new*/
+  /*style="z-index: -1;"*/
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.mybg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+.myloglab {
+  font-size: 16px
+}
+.mylogbody {
+    padding-top: 40px;
+}
+.mylogpanbody {
+  background-color: #eee; padding: 30px;
+}
+.mylogpanfoot {
+  font-size: 12px;
+  background-color: #337ab7;
+  color: #ddd;
+  padding: 12px;
+}
+.myjumbotron {
+  background-color: transparent;
+}
+/*sama tinggi kolom*/
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+/**/
+
+.myalert-sm {
+  padding: 7px 15px;
+}
+
+.myform-inline {
+  display: inline;
+}
+.form-group .myreadonly {
+  background-color: #fff;
+}
+/*.myreadonly[disabled], .myreadonly[readonly], fieldset[disabled] .myreadonly {
+  background-color: #fff;
+}*/
+.myform2 {
+  margin-right: -5px;
+}
+.myform2 .btn {
+  border-radius: 0px;
+}
+textarea.mytextarea {
+  height: 56px;
+}
+.mynone {
+  display: none;
+}
+.mybtn-active, .mybtn-active:hover, .mybtn-active:active, .mybtn-active:focus, .mybtn-active:hover {
+  color: #fff;
+  /*background-color: transparent;
+  border-color: #204d74;*/
+  background-color: #286090;
+  border-color: #204d74;
+}
+.myh {
+  line-height: 1.8;
+}
+
+.report {
+  /*font-family: arial;*/
+  font-size: 15px;
+  /*background-color: red;
+  border: 1px solid green;*/
+}
+
+.report-header {
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+.report-header td {
+  text-align: center;
+  /*border: 1px solid green;*/
+}
+.head1 {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.head2 {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.head3 {
+  font-size: 12px;
+  letter-spacing: 1px;
+  /*font-size: 11px;*/
+}
+
+.report-rincian td {
+  height: 26px;
+  /*line-height: 1px;*/
+  vertical-align: top;
+  text-align: justify;
+}
+.report-siswa {
+    border-collapse: collapse;
+}
+.report-siswa td, .report-siswa th {
+  text-align: center;
+  height: 30px;
+  border: 1px solid #333;
+}
+
+.mypanel {
+  background-color: transparent;
+}

@@ -1,0 +1,33 @@
+/****************************************************************************
+* Aplikasi Pengelolaan Catatan Kegiatan Bimbingan Konseling SMKN 1 Majalaya *
+* Versi    : v1.180116                                                      *
+* Developer: Budiman Fajar Firdaus                                          *
+* Email    : budimanfajarf@gmail.com                                        *
+* Partner  : Ibnu Syina                                                     *
+* Dibuat untuk memenuhi Kerja Praktek(KP)                                   *
+****************************************************************************/
+
+/****************************************************************************
+// HTML, CSS, PHP, MariaDB, JavaScript
+// Bootstrap v3.3.7
+// mPDF 7.0
+****************************************************************************/
+
+/****************************************************************************
+// SMK NEGERI 1 MAJALAYA
+****************************************************************************/
+
+/****************************************************************************
+// FAKULTAS TEKNOLOGI INFORMASI
+// UNIVERSITAS BALE BANDUNG
+****************************************************************************/
+
+/****************************************************************************
+// PENGGUNAAN
+// 1. Buat database baru
+// 2. Import data database dari file bk.sql
+// 3. Konfigurasi host, user, password dan database di file connection.php
+// 4. Login
+//    / Username : Administrator
+//    / Password : 12345678
+****************************************************************************/
